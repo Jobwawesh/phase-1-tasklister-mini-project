@@ -5,8 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault()
     toDoInput(e.target.newTaskDescription.value)
   })
-
-});
+})
 
 function toDoInput(job) {
   let li = document.createElement('li')
